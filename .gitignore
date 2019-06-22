@@ -1,0 +1,9 @@
+/node_modules
+/wp-admin
+/wp-content
+/wp-includes
+/index.php
+*.php
+.htaccess
+readme.html
+license.txt

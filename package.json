@@ -1,0 +1,22 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "Examples introducing Mocha and Chai.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/bootstrap.js --recursive test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-files": "^1.4.0",
+    "mocha": "^6.0.2",
+    "puppeteer": "^1.13.0",
+    "superagent": "^4.1.0",
+    "supertest": "^4.0.0"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}

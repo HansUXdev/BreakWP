@@ -1,0 +1,2 @@
+During the 2nd exercise, the wp-admin folder wont just rebuild like the wp-config.php does. You'll need to run this until a better work around is found. 
+`rm -rf -f wp-*/ && rm  -f .htaccess && rm -f license.txt &&  rm -f index.php && rm -f wp-*.php`
