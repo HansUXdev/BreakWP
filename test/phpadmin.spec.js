@@ -1,6 +1,3 @@
-
-// import  PHPmyadminUrl from './config.js';
-
 //////////////////////////////////////////////
 /// DB Checks
 //////////////////////////////////////////////
@@ -16,9 +13,9 @@
        await page.close(); 
     } )
 
-    it('should have the correct page title', async function () {
-      expect(await page.title()).to.eql('phpMyAdmin');
-    });
+    // it('should have the correct page title', async function () {
+    //   expect(await page.title()).to.eql('phpMyAdmin');
+    // });
     // it("should be able to login into phpmyadmin", function() {
     //   // await page.goto(siteUrl);
     // });
