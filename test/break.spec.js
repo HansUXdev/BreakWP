@@ -9,56 +9,56 @@
 
 // const {browser, newPage} = require('puppeteer');
 
-describe('Test the 1st exercise', function () {
-  let page;
+// describe('Test the 1st exercise', function () {
+//   let page;
   
 
-  before (async function () {
-    page = await browser.newPage();
-    await page.goto('http://localhost:8000/break1.php');
-  });
+//   before (async function () {
+//     page = await browser.newPage();
+//     await page.goto('http://localhost:8000/break1.php');
+//   });
 
-  after (async function () {
-    await page.close();
-  })
+//   after (async function () {
+//     await page.close();
+//   })
 
-  it('should have the correct title', async function () {
-    expect(await page.title()).to.eql('"WordPress 101: Use Tests/Git to check WP core files"');
-  });
+//   it('should have the correct title', async function () {
+//     expect(await page.title()).to.eql('"WordPress 101: Use Tests/Git to check WP core files"');
+//   });
 
-  it('should click the button', async function () {
+  // it('should click the button', async function () {
     // await page.goto(`${opts.appUrl}/login`);
-    await page.click("input.btn");
+    // await page.click("input.btn");
     // await page.type("test@test.com")
     // await page.click("[name=password]");
     // await page.type("testing");
     // await page.click("[type=submit]");
 
 
-    const HEADING_SELECTOR = 'h1';
-    let heading;
-    await page.waitFor(HEADING_SELECTOR);
-    heading = await page.$eval(HEADING_SELECTOR, heading => heading.innerText);
-    expect(heading).to.eql('"Your WordPress site has been broken!"');
-  })
+  //   const HEADING_SELECTOR = 'h1';
+  //   let heading;
+  //   await page.waitFor(HEADING_SELECTOR);
+  //   heading = await page.$eval(HEADING_SELECTOR, heading => heading.innerText);
+  //   expect(heading).to.eql('"Your WordPress site has been broken!"');
+  // })
 
 
-  it('should click the button', async function () {
-    await page.click('input.btn');
-    // await page.$eval( 'input.btn', button => {
-    //   button.click();
-    // });
+  // it('should click the button', async function () {
+  //   await page.click('input.btn');
+  //   // await page.$eval( 'input.btn', button => {
+  //   //   button.click();
+  //   // });
 
-    const HEADING_SELECTOR = 'h1';
-    let heading;
-    await page.waitFor(HEADING_SELECTOR);
-    heading = await page.$eval(HEADING_SELECTOR, heading => heading.innerText);
-    expect(heading).to.eql('"Your WordPress site has been broken!"');
-  });
-
-  // it( 'Browser Closes Successfully', async () => {
-  //   await browser.close();
+  //   const HEADING_SELECTOR = 'h1';
+  //   let heading;
+  //   await page.waitFor(HEADING_SELECTOR);
+  //   heading = await page.$eval(HEADING_SELECTOR, heading => heading.innerText);
+  //   expect(heading).to.eql('"Your WordPress site has been broken!"');
   // });
-});
+
+//   it( 'Browser Closes Successfully', async () => {
+//     await browser.close();
+//   });
+// });
 
 

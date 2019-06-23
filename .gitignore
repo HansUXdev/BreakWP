@@ -7,3 +7,6 @@
 .htaccess
 readme.html
 license.txt
+
+
+/test/break.spec.js
