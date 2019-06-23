@@ -3,10 +3,16 @@
 /wp-content
 /wp-includes
 /index.php
-*.php
+xmlrpc.php
+wp-*.php
+index.php
+
+break3.php
+break4.php
+
 .htaccess
 readme.html
 license.txt
 
 
-# /test/break.spec.js
+/test/break.spec.js
