@@ -68,7 +68,17 @@ Hint: check the htaccess file
   * Teach you all the ins & outs of docker and docker-compose, we just use it
 
 
+## Reading about the project
+  * [Breaking WordPress: Part 1](https://medium.com/swlh/using-docker-to-teach-local-wordpress-development-1b5ca2ce22c3)
+  * [Breaking WordPress: Part 2](https://medium.com/swlh/testing-wordpress-with-mocha-chai-f531bed8ffad)
+
+## Video Lession on Docker
+If you haven't used docker, thats ok.
+Here are some video tutorials by [Brad Traversy](github.com/bradtraversy/) to help cover the gap.
+* [Quick Wordpress Setup With Docker](https://www.youtube.com/watch?v=pYhLEV-sRpY&t=272s)
+* [Docker Playlist](https://www.youtube.com/watch?v=Kyx2PsuwomE&list=PLillGF-Rfqbb6vZqT-Lzi9Al_noaY5LAs)
+* [Exploring The Wordpress REST API & React Integration](https://www.youtube.com/watch?v=fFNXWinbgro&t=2703s)
 
 ## External Readings
-[UI Testing with Puppeteer and Mocha](https://medium.com/@ankit_m/ui-testing-with-puppeteer-and-mocha-part-1-getting-started-b141b2f9e21)
-[Testing 2](https://medium.com/@dpark/ui-testing-with-puppeteer-and-mocha-8a5c6feb3407)
+* [UI Testing with Puppeteer and Mocha](https://medium.com/@ankit_m/ui-testing-with-puppeteer-and-mocha-part-1-getting-started-b141b2f9e21)
+* [Testing 2](https://medium.com/@dpark/ui-testing-with-puppeteer-and-mocha-8a5c6feb3407)
