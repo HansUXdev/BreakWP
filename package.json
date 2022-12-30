@@ -11,7 +11,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-files": "^1.4.0",
-    "mocha": "^6.0.2",
+    "mocha": "^10.2.0",
     "puppeteer": "^1.13.0",
     "superagent": "^4.1.0",
     "supertest": "^4.0.0"
